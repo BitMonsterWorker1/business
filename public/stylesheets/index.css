@@ -197,19 +197,14 @@ body {
   transition: 2.5s background-color ease-in-out; }
 
 .about {
-  color: white;
-  height: 450px;
-  width: 350px;
-  border: 10px solid navy;
-  border-radius: 25px;
-  font-family: verdana;
-  background-color: #229a9f;
-  transition: 2.5s background-color ease-in-out; }
+  color: black;
+  height: 500px;
+  width: 600px; }
 
 .about:hover {
   color: white;
-  height: 450px;
-  width: 350px;
+  height: 500px;
+  width: 600px;
   border: 10px solid navy;
   border-radius: 25px;
   font-family: verdana;
