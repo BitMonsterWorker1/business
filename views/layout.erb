@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/stylesheets/index.css">
+  </head>
+  <body>
+      <div class="mobile-nav">
+      <nav>
+        <ul>
+          <li><a href="./index.erb">Home</a></li>
+          <li><a href="./about.erb">About</a></li>
+          <li><a href="./contact.erb">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+<br>
+<br>
+<br>
+<br>
+    <header class="nav-header">
+       <div class="btn-group left">
+        <a href="/" class="btn">Home</a>
+      </div>
+      <div class="btn-group right">
+        <a href="/about" class="btn">About</a>
+        <a href="/product" class="btn">Product</a>
+        <a href="/contact" class="btn">Contact</a>
+
+      <a href="#" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+
+      </div>
+    </header>
+    <div class="box">
+      <div class="sky">
+        <div class="stars"></div>
+        <div class="stars1"></div>
+        <div class="stars2"></div>
+        <div class="shooting-stars"></div>
+      </div>
+    </div>
+
+
+
+    <%= yield %>
+<br>
+<br>
+    <br>
+        <footer>
+
+        <p class='copy'>&copy; MSM Inc.</p>
+        </footer>
+    <script src="/js/index.js"></script>
+  </body>
+</html>

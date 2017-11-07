@@ -1,0 +1,278 @@
+body {
+  background: #000 url(https://28oa9i1t08037ue3m1l0i861-wpengine.netdna-ssl.com/wp-content/uploads/2014/05/Stars-fixed.jpg) repeat top center;
+  z-index: 0;
+  overflow: hidden; }
+  body:after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    right: 30%;
+    top: 20%;
+    box-shadow: 0 0 50px 5px #fff, 0 0 130px 10px #fff, 0 0 12px rgba(0, 0, 0, 0.2) inset, 0 0 30px #fff inset;
+    background: url("https://media.giphy.com/media/oEyl6yCC5D9kI/giphy.gif") no-repeat center;
+    background-size: 402px;
+    animation: moonrise 20s forwards; }
+
+@keyframes moonrise {
+  100% {
+    right: 20%;
+    top: -10%; } }
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.btn2 {
+  background-color: gold;
+  border: 3px solid #444444;
+  border-radius: 2px;
+  color: white;
+  font-family: verdana;
+  padding: 6px 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3s background-color ease-in-out; }
+
+.btn-group {
+  margin: 0 20px;
+  padding: 10px 0; }
+
+.btn {
+  background-color: black;
+  border: 3px solid #444444;
+  border-radius: 2px;
+  color: white;
+  font-family: verdana;
+  padding: 6px 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s background-color ease-in-out; }
+
+.btn:hover {
+  background-color: green;
+  transition: 0.3s background-color ease-in-out; }
+
+@media screen and (max-width: 768px) {
+  .nav-header .btn {
+    display: none; } }
+@media screen and (max-width: 480px) {
+  .nav-header .btn .btn2 {
+    display: none;
+    max-width: 100%; }
+
+  .hamburger {
+    display: block;
+    width: 3em;
+    height: 3em; }
+
+  .hamburger > span {
+    background-color: black;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    height: 0.5em; }
+
+  .hamburger > span:nth-child(2) {
+    margin: 4px 0; } }
+.mobile-nav {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 9999; }
+
+.mobile-nav nav {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center; }
+
+.mobile-nav ul {
+  list-style-type: none; }
+
+.mobile-nav li {
+  padding-top: 1em; }
+
+.mobile-nav a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 2em; }
+
+.paragraph {
+  font-size: 2em;
+  color: black;
+  font-family: cursive; }
+
+.copy {
+  color: white;
+  position: absolute;
+  top: 620px; }
+
+.pictureleft {
+  position: absolute;
+  top: 200px;
+  height: 400px;
+  width: 606px;
+  border: 10px solid navy;
+  border-radius: 15px; }
+
+.pictureleft:hover {
+  border: 13px solid green;
+  border-radius: 35px; }
+
+#texts {
+  font-family: verdana; }
+
+.box_1 {
+  position: absolute;
+  color: white;
+  top: 150px;
+  right: 820px;
+  height: 450px;
+  width: 350px;
+  border-radius: 25px; }
+
+.box_2 {
+  position: absolute;
+  color: white;
+  top: 150px;
+  right: 450px;
+  height: 450px;
+  width: 350px;
+  border-radius: 25px; }
+
+.box_3 {
+  position: absolute;
+  color: white;
+  top: 150px;
+  right: 80px;
+  height: 450px;
+  width: 350px;
+  border-radius: 25px; }
+
+.box_1:hover {
+  position: absolute;
+  color: white;
+  top: 150px;
+  right: 820px;
+  height: 450px;
+  width: 350px;
+  border: 10px solid navy;
+  border-radius: 25px;
+  font-family: verdana;
+  background-color: #229a9f;
+  transition: 2.5s background-color ease-in-out; }
+
+.box_2:hover {
+  position: absolute;
+  color: white;
+  top: 150px;
+  right: 450px;
+  height: 450px;
+  width: 350px;
+  border: 10px solid navy;
+  border-radius: 25px;
+  font-family: verdana;
+  background-color: #229a9f;
+  transition: 2.5s background-color ease-in-out; }
+
+.box_3:hover {
+  position: absolute;
+  color: white;
+  top: 150px;
+  right: 80px;
+  height: 450px;
+  width: 350px;
+  border: 10px solid navy;
+  border-radius: 25px;
+  font-family: verdana;
+  background-color: #229a9f;
+  transition: 2.5s background-color ease-in-out; }
+
+.textright {
+  position: absolute;
+  color: white;
+  top: 200px;
+  right: 0px;
+  height: 400px;
+  width: 606px;
+  border: 10px solid navy;
+  border-radius: 25px;
+  font-family: verdana; }
+
+.textright:hover {
+  border: 13px solid green;
+  border-radius: 45px; }
+
+.email {
+  background-color: black;
+  border: 3px solid #444444;
+  border-radius: 2px;
+  color: white;
+  font-family: verdana;
+  padding: 6px 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s background-color ease-in-out; }
+
+.email:hover {
+  background-color: green;
+  transition: 0.3s background-color ease-in-out; }
+
+.emailtxt {
+  width: 150px;
+  background-color: green;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s background-color ease-in-out;
+  border: 3px solid #444444; }
+
+.emailtxt:hover {
+  width: 150px;
+  background-color: white;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s background-color ease-in-out;
+  border: 3px solid #444444; }
+
+.body {
+  height: 150px;
+  width: 350px;
+  font-family: verdana;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s background-color ease-in-out;
+  border: 3px solid #444444;
+  background-color: green; }
+
+.body:hover {
+  background-color: white; }
+
+.submit {
+  background-color: black;
+  border: 3px solid #444444;
+  border-radius: 2px;
+  color: white;
+  font-family: verdana;
+  padding: 6px 20px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s background-color ease-in-out; }
+
+.submit:hover {
+  background-color: green;
+  transition: 0.3s background-color ease-in-out; }
+
+/*# sourceMappingURL=index.css.map */
