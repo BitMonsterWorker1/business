@@ -249,6 +249,16 @@ border-radius: 25px;
   background-color: rgb(34, 154, 159);
   transition: 2.5s background-color ease-in-out;
 }
+
+#info{
+color: black;
+}
+
+#info:hover {
+  font-family: verdana;
+  color: white;
+  transition: 2.5s color ease-in-out;
+}
 .textright {
     position: absolute;
     color: white;
