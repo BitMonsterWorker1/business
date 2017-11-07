@@ -251,13 +251,27 @@ border-radius: 25px;
 }
 
 .about {
+  color: white;
 
+  height: 450px;
+  width: 350px;
+  border: 10px solid navy;
+  border-radius: 25px;
+  font-family: verdana;
+  background-color: rgb(34, 154, 159);
+  transition: 2.5s background-color ease-in-out;
 }
 
 .about:hover {
-  font-family: verdana;
   color: white;
-  transition: 2.5s color ease-in-out;
+
+  height: 450px;
+  width: 350px;
+  border: 10px solid navy;
+  border-radius: 25px;
+  font-family: verdana;
+  background-color: rgb(34, 154, 159);
+  transition: 2.5s background-color ease-in-out;
 }
 #info{
 color: black;
@@ -270,8 +284,6 @@ color: black;
   color: white;
   transition: 2.5s color ease-in-out;
 }
-
-
 .textright {
     position: absolute;
     color: white;
