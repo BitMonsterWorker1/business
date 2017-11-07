@@ -196,6 +196,11 @@ body {
   background-color: #229a9f;
   transition: 2.5s background-color ease-in-out; }
 
+.about:hover {
+  font-family: verdana;
+  color: white;
+  transition: 2.5s color ease-in-out; }
+
 #info {
   color: black; }
 
